@@ -1,5 +1,4 @@
 const crypto = require("crypto");
-const fetch = require("node-fetch");
 const { emailService } = require("../services");
 
 const ENC_KEY = "bf3c199c4207bc477b907d1e0917b17c"; // set random encryption key

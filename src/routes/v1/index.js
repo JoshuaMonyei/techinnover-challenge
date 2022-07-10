@@ -12,7 +12,7 @@ const defaultRoutes = [
     route: reminderRoute,
   },
   {
-    path: '/trades',
+    path: '/analytics',
     route: tradeRoute,
   },
 

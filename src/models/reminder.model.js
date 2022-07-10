@@ -11,7 +11,7 @@ const reminderSchema = mongoose.Schema(
   }
 );
 
-// add plugin that converts mongoose response to JSON and returns preffered format
+// add plugin that converts mongoose response to JSON and returns preferred format
 reminderSchema.plugin(toJSON);
 
 const Reminder = mongoose.model("Reminder", reminderSchema);
